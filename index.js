@@ -6,6 +6,6 @@ class Polygon {
     return this.array.length
   }
   get perimeter(){
-    return this.array.sum()
+    return this.array.reduce((a, b) => a + b, 0)
   }
 }
