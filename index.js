@@ -21,3 +21,12 @@ class Triangle extends Polygon {
     }
   }
 }
+
+class Square extends Polygon {
+  
+  get isValid() {
+    if(array[0] === array[1] && array[1] === array[2] && array[2]=== array[3]){
+    }
+  }
+  
+}
